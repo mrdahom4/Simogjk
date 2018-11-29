@@ -30,7 +30,7 @@ client.on('ready', () => {
 
 
 client.on("message", message => {
-    if (message.content.startsWith("bc1")) {
+    if (message.content.startsWith(prefix + "bc1")) {
                  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' ');
@@ -200,9 +200,9 @@ if (command == "embed") {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : i1Suhaib`);
+      console.log(`Desert Bot- Script By : DaHoM`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : DaHoM ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(`Simo Network.`,"http://twitch.tv/S-F")
